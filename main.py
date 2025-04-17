@@ -6,8 +6,11 @@ import pandas as pd
 from dotenv import load_dotenv
 load_dotenv()
 
-from src.mcqgenerator.mcqgenerator import generate_quiz_and_review_sequence_chain
-from src.mcqgenerator.logger import logging
+import certifi
+os.environ["SSL_CERT_FILE"] = certifi.where()
+
+from src.mcqgenerator.chains import generate_quiz_and_review_sequence_chain
+from src.logger import logging
 from src.mcqgenerator.streamlit_app import load_stream_lit_app 
 
 def main():
@@ -17,14 +20,6 @@ def main():
         raise Exception("Failed to generate sequence chain")
     load_stream_lit_app(generate_quiz_seq_chain)
     
-
-
-
-
-
-
-
-
 
 
 
