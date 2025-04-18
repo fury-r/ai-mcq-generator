@@ -95,6 +95,16 @@ The app is deployed on an **AWS EC2 instance**:
 
 > Since ML processing is handled by OpenAI's API, the app remains lightweight and runs smoothly on a micro instance.
 
+## 📸 Screenshots
+
+![Landing Page](./images/image.png)
+
+![Processing](./images/processing.png)
+
+![Output 1](./images/output-1.png)
+
+![Output 2](./images/output-2.png)
+
 # Commands to execute on the EC2 instance
 
 ```bash

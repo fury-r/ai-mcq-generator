@@ -1,5 +1,21 @@
-Biology is the scientific study of life.[1][2][3] It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field.[1][2][3] For instance, all organisms are made up of cells that process hereditary information encoded in genes, which can be transmitted to future generations. Another major theme is evolution, which explains the unity and diversity of life.[1][2][3] Energy processing is also important to life as it allows organisms to move, grow, and reproduce.[1][2][3] Finally, all organisms are able to regulate their own internal environments.[1][2][3][4][5]
-
-Biologists are able to study life at multiple levels of organization,[1] from the molecular biology of a cell to the anatomy and physiology of plants and animals, and evolution of populations.[1][6] Hence, there are multiple subdisciplines within biology, each defined by the nature of their research questions and the tools that they use.[7][8][9] Like other scientists, biologists use the scientific method to make observations, pose questions, generate hypotheses, perform experiments, and form conclusions about the world around them.[1]
-
-Life on Earth, which emerged more than 3.7 billion years ago,[10] is immensely diverse. Biologists have sought to study and classify the various forms of life, from prokaryotic organisms such as archaea and bacteria to eukaryotic organisms such as protists, fungi, plants, and animals. These various organisms contribute to the biodiversity of an ecosystem, where they play specialized roles in the cycling of nutrients and energy through their biophysical environment.
+Artificial intelligence (AI) refers to the capability of computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, problem-solving, and decision-making. AI technologies aim to enable machines to mimic human intelligence by analyzing data, recognizing patterns, and making predictions. 
+Key aspects of AI:
+Learning: AI systems can learn from data and adapt to new situations. 
+Reasoning: AI can draw inferences and make logical deductions based on available information. 
+Problem-solving: AI can identify and solve problems, often using algorithms and data analysis. 
+Decision-making: AI can make informed decisions based on learned patterns and data analysis. 
+Perception: AI can process and interpret sensory information, such as visual and auditory data. 
+Natural Language Processing (NLP): AI can understand, interpret, and generate human language. 
+Speech Recognition: AI can translate spoken words into text or vice versa. 
+Machine Vision: AI can "see" and interpret images and videos. 
+Applications of AI:
+Autonomous vehicles: Self-driving cars rely on AI for navigation and decision-making. 
+Robotics: AI powers robots in various fields, from manufacturing to healthcare. 
+Customer service: AI-powered chatbots can handle customer inquiries and provide support. 
+Healthcare: AI is used for diagnosis, treatment planning, and drug discovery. 
+Finance: AI is used for fraud detection, risk assessment, and algorithmic trading. 
+Education: AI can personalize learning experiences and automate grading. 
+Types of AI:
+Narrow AI (Weak AI): AI systems designed for specific tasks, like virtual assistants (Siri, Alexa).
+General AI (Strong AI): AI systems capable of performing a wide range of tasks, similar to human intelligence (currently theoretical).
+Super AI: AI systems that surpass human intelligence (currently theoretical). 

@@ -29,7 +29,7 @@ def load_stream_lit_app(generate_evaluate_quiz_review):
         # number of questions
         mcq_count=st.number_input("Number of Questions",min_value=3,max_value=50)
         # subject name
-        subject=st.text_input("Name of the Subject",max_chars=20)
+        subject=st.text_input("Name of the Subject",max_chars=50)
         # quiz tone: complexity level
         tone=st.text_input("Complexity Level of the questions",max_chars=20,placeholder="Simple",)
         # Add Button
