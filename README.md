@@ -77,6 +77,11 @@ src/                # Source code directory
    ```bash
    streamlit run streamlit_app.py
    ```
+   Hot-reload
+   ```bash
+   streamlit run main.py --server.runOnSave=true
+   ```
+7. **Open your browser** and navigate to `http://localhost:8501` to view the app.
 
 ## 📌 Usage
 
