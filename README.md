@@ -10,6 +10,7 @@ This project is a **Streamlit application** that allows users to upload a docume
 - 🤖 Generate MCQs using OpenAI's LLM via LangChain
 - ✅ Interactive UI with Streamlit
 - 📊 View and answer generated quiz questions
+- ☁️ Deployed on AWS EC2 (t3.micro)
 
 ## 🗂️ Project Structure
 
@@ -82,6 +83,46 @@ src/                # Source code directory
    streamlit run main.py --server.runOnSave=true
    ```
 7. **Open your browser** and navigate to `http://localhost:8501` to view the app.
+
+## 🖥️ Deployment
+
+The app is deployed on an **AWS EC2 instance**:
+
+- **Instance type**: `t3.micro`
+- **OS**: Ubuntu 22.04 LTS
+- **Deployment stack**: Streamlit + Python + OpenAI API
+- **Status**: Live (optional: secured with Nginx + HTTPS)
+
+> Since ML processing is handled by OpenAI's API, the app remains lightweight and runs smoothly on a micro instance.
+
+# Commands to execute on the EC2 instance
+
+```bash
+# Update and install required packages
+sudo apt update && sudo apt upgrade -y
+sudo apt install git curl unzip tar make sudo vim wget
+sudo apt install python3-venv python3-pip -y
+
+```
+
+Clone the repo and install the requirements
+
+```bash
+git clone https://github.com/fury-r/ai-mcq-generator.git
+cd ai-mcq-generator
+```
+
+Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+Start the streamlit app
+
+```bash
+python3 -m streamlit run main.py
+```
 
 ## 📌 Usage
 
