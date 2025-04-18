@@ -16,7 +16,7 @@ with open("./src/data/response.json","r") as file:
 
 
 def load_stream_lit_app(generate_evaluate_quiz_review):
-
+    df,table_data=pd.DataFrame(),None
     logging.log(logging.INFO,"starting streamlit app")
     
     # title for app
@@ -71,8 +71,15 @@ def load_stream_lit_app(generate_evaluate_quiz_review):
                                 st.table(df)
                                 # display the review
                                 st.text_area(label="Review",value=response.get("review","Not found"))
+
+
+
                             else:
                                 logging.log(logging.ERROR,f"Error in table data {table_data}")
                                 st.error("Error in table data")
                     else:
                         st.write(response)
+    if not df.empty and table_data:
+        print(df,table_data)
+        st.download_button("Download CSV",data=df.to_csv(index=False),file_name="mcq.csv",mime="text/csv")
+        st.download_button("Download JSON",data=json.dumps(table_data),file_name="mcq.json",mime="application/json")
