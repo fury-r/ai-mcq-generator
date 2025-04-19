@@ -9,7 +9,7 @@ This project is a **Streamlit application** that allows users to upload a docume
 - 📁 Upload a document (e.g., PDF, TXT)
 - 🤖 Generate MCQs using OpenAI's LLM via LangChain
 - ✅ Interactive UI with Streamlit
-- 📊 View and answer generated quiz questions
+- 📊 View generated quiz questions and answers.
 - ☁️ Deployed on AWS EC2 (t3.micro)
 
 ## 🗂️ Project Structure
@@ -139,7 +139,7 @@ python3 -m streamlit run main.py
 1. Launch the app in your browser (it will open automatically).
 2. Upload a file you want to generate a quiz from.
 3. The app will analyze the text and generate MCQs using the OpenAI model.
-4. You can view and attempt the generated quiz interactively.
+4. You can view the generated quiz.
 
 ## 🤝 Contributing
 
