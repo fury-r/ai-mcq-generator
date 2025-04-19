@@ -20,7 +20,7 @@ def load_stream_lit_app(generate_evaluate_quiz_review):
     logging.log(logging.INFO,"starting streamlit app")
     
     # title for app
-    st.title("MCQs creator Application with Langchain")
+    st.title("MCQs Creator App with Langchain")
 
     with st.form("user_inputs"):
         
