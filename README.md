@@ -18,7 +18,7 @@ This project is a **Streamlit application** that allows users to upload a docume
 src/                # Source code directory
 ├── data/
 |   ├── response.json  # Sample response file
-├── mcq/
+├── mcqgenerator/
 |   ├── streamlit_app.py    # Streamlit application entry point
 |   ├── mcqgenerator/       # LangChain prompt templates and chain logic
 |   ├── utils/              # Utility functions for file handling, parsing, etc.
