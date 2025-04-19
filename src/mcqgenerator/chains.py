@@ -53,11 +53,11 @@ def generate_quiz_and_review_sequence_chain():
 
     # temperature stands for creativeness 
     # 0 means straightforward not creativeness
+    # n is number of completions per prompt
     chat_client=ChatOpenAI(
         openai_api_key=apiKey,
         model="gpt-3.5-turbo",
         temperature=0.5,
-        max_tokens=1000,
         n=1,
     )
 
